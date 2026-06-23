@@ -1,0 +1,1 @@
+Python is one of the most popular programming languages in the world. Its simplicity and readability make it an excellent choice for beginners, while its powerful libraries and frameworks make it ideal for professionals. Python is used in web development, data science, artificial intelligence, automation, and many other fields.
