@@ -46,21 +46,6 @@ Creates an inverted index mapping tokens to documents and their frequencies.
 Implements the search algorithm using TF-IDF scoring.
 - **Function**: `search(query, inverted_index, total_documents)` - Searches and ranks documents
 
-## Installation 📦
-
-1. Clone the repository:
-```bash
-git clone https://github.com/Bishusus/Mini-Search-Engine.git
-cd Mini-Search-Engine
-```
-
-2. Ensure you have Python 3.6+ installed:
-```bash
-python --version
-```
-
-3. No external dependencies required! The project uses only Python standard library modules.
-
 ## Usage 🚀
 
 ### Basic Usage
@@ -84,21 +69,6 @@ Rank 1. document1.txt: 4.5231
 Rank 2. document2.txt: 3.8912
 Rank 3. document3.txt: 2.1456
 ...
-```
-
-### Example
-
-Create a simple text file `sample.txt` in the `textFiles` directory:
-```
-Artificial Intelligence and Machine Learning are revolutionizing technology.
-Machine Learning models require large amounts of data for training.
-Deep Learning is a subset of Machine Learning focused on neural networks.
-```
-
-Then run the search engine and search for "machine learning":
-```bash
-python main.py
-Enter your search query: machine learning
 ```
 
 ## How It Works 🔧
@@ -155,34 +125,3 @@ This project demonstrates core Information Retrieval concepts:
 - **TF-IDF**: Standard metric for document relevance scoring
 - **Tokenization**: Text preprocessing and normalization
 - **Stopword Removal**: Improving search quality by filtering noise
-
-## Requirements
-
-- Python 3.6+
-- No external dependencies (uses only standard library)
-
-## File Structure
-
-- **main.py**: Application entry point
-- **search_engine/__init__.py**: Package initialization
-- **search_engine/loader.py**: Document loader
-- **search_engine/tokenizer.py**: Text tokenizer
-- **search_engine/indexer.py**: Index builder
-- **search_engine/search.py**: Search implementation
-- **textFiles/**: Directory for text documents
-
-## License
-
-This project is open source and available for educational and personal use.
-
-## Author
-
-**Bishusus** - Created as a demonstration of search engine implementation principles
-
-## Support & Contribution
-
-Feel free to fork this project, submit issues, or create pull requests with improvements and enhancements!
-
----
-
-**Happy Searching!** 🎯
